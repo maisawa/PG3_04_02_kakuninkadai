@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <iostream>
-using namespace std;//std::È—ª
+using namespace std;//std::çœç•¥
 
 
 template <typename Type, typename Type2>
@@ -34,12 +34,12 @@ int main() {
 	TemplateClass<double, int> doubleIntTemplate(666.0, 333);
 	TemplateClass<double, float> doubleFloatTemplate(435.8, 563.5f);
 
-	/*std::*/cout << "int(10)@‚Æ float(50.0f) ‚ğ”ä‚×‚Ä¬‚³‚¢”š‚ğ•\‚·F" << intFloatTemplate.Min() << std::endl;
-	/*std::*/cout << "int(80)@‚Æ double(13.0) ‚ğ”ä‚×‚Ä¬‚³‚¢”š‚ğ•\‚·F" << intDoubleTemplate.Min() << std::endl;
-	/*std::*/cout << "float(2.0f)@‚Æ int(9) ‚ğ”ä‚×‚Ä¬‚³‚¢”š‚ğ•\‚·F" << floatIntTemplate.Min() << std::endl;
-	/*std::*/cout << "float(11.0f)@‚Æ double(3.5) ‚ğ”ä‚×‚Ä¬‚³‚¢”š‚ğ•\‚·F" << floatDoubleTemplate.Min() << std::endl;
-	/*std::*/cout << "double(666.0)@‚Æ int(333) ‚ğ”ä‚×‚Ä¬‚³‚¢”š‚ğ•\‚·F" << doubleIntTemplate.Min() << std::endl;
-	/*std::*/cout << "double(435.8)@‚Æ float(563.5f) ‚ğ”ä‚×‚Ä¬‚³‚¢”š‚ğ•\‚·F" << doubleFloatTemplate.Min() << std::endl;
+	/*std::*/cout << "int(10)ã€€ã¨ float(50.0f) ã‚’æ¯”ã¹ã¦å°ã•ã„æ•°å­—ã‚’è¡¨ã™ï¼š" << intFloatTemplate.Min() << /*std::*/endl;
+	/*std::*/cout << "int(80)ã€€ã¨ double(13.0) ã‚’æ¯”ã¹ã¦å°ã•ã„æ•°å­—ã‚’è¡¨ã™ï¼š" << intDoubleTemplate.Min() << /*std::*/endl;
+	/*std::*/cout << "float(2.0f)ã€€ã¨ int(9) ã‚’æ¯”ã¹ã¦å°ã•ã„æ•°å­—ã‚’è¡¨ã™ï¼š" << floatIntTemplate.Min() << /*std::*/endl;
+	/*std::*/cout << "float(11.0f)ã€€ã¨ double(3.5) ã‚’æ¯”ã¹ã¦å°ã•ã„æ•°å­—ã‚’è¡¨ã™ï¼š" << floatDoubleTemplate.Min() << /*std::*/endl;
+	/*std::*/cout << "double(666.0)ã€€ã¨ int(333) ã‚’æ¯”ã¹ã¦å°ã•ã„æ•°å­—ã‚’è¡¨ã™ï¼š" << doubleIntTemplate.Min() << /*std::*/endl;
+	/*std::*/cout << "double(435.8)ã€€ã¨ float(563.5f) ã‚’æ¯”ã¹ã¦å°ã•ã„æ•°å­—ã‚’è¡¨ã™ï¼š" << doubleFloatTemplate.Min() << /*std::*/endl;
 
 	return 0;
 }
